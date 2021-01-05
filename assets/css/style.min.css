@@ -8784,11 +8784,11 @@ a::selection,blockquote::selection,div::selection,h1::selection,h2::selection,h3
 
 .header-top-line .logo h1 a:hover {
   transition: all .4s ease-in-out;
-  color: #46eeaa;
+  color: #0F91B1;
 }
 
 .header-top-line .logo h1:first-letter {
-  color: #46eeaa;
+  color: #0F91B1;
 }
 
 #header .header-inner {
@@ -8826,7 +8826,7 @@ a::selection,blockquote::selection,div::selection,h1::selection,h2::selection,h3
 
 .main-header .main-header--top {
   height: 45px;
-  background: #1a1a1a;
+  background: #1E283F;
   position: relative;
 }
 
@@ -9763,7 +9763,7 @@ a::selection,blockquote::selection,div::selection,h1::selection,h2::selection,h3
   bottom: 4px;
   left: 0;
   margin-left: -7px;
-  background-image: linear-gradient(to right,#0F91B1 0,#46eeaa 100%);
+  background-image: linear-gradient(to right,#0F91B1 0,#0F91B1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0F91B1', endColorstr='#FF46EEAA', GradientType=1);
   background-repeat: repeat-x;
 }
@@ -9977,7 +9977,7 @@ a::selection,blockquote::selection,div::selection,h1::selection,h2::selection,h3
   bottom: 4px;
   left: 0;
   margin-left: -7px;
-  background-image: linear-gradient(to right,#0F91B1 0,#46eeaa 100%);
+  background-image: linear-gradient(to right,#0F91B1 0,#0F91B1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0F91B1', endColorstr='#FF46EEAA', GradientType=1);
   background-repeat: repeat-x;
 }
@@ -10439,7 +10439,7 @@ a::selection,blockquote::selection,div::selection,h1::selection,h2::selection,h3
   }
 
   50% {
-    background: #46eeaa;
+    background: #0F91B1;
   }
 }
 
@@ -11395,7 +11395,7 @@ table tbody tr th {
   right: 0;
   opacity: 0;
   margin-left: -7px;
-  background-image: linear-gradient(to right,#0F91B1 0,#46eeaa 100%);
+  background-image: linear-gradient(to right,#0F91B1 0,#0F91B1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0F91B1', endColorstr='#FF46EEAA', GradientType=1);
   background-repeat: repeat-x;
 }
@@ -12463,11 +12463,11 @@ table tbody tr th {
 }
 
 .our-advantages-widget .advantage-item.active {
-  background: #dd8a4c;
+  background: #0F91B1;
 }
 
 .our-advantages-widget .advantage-item:hover {
-  background: #dd8a4c;
+  background: #0F91B1;
   transition: .3s;
 }
 
@@ -12785,7 +12785,7 @@ table tbody tr th {
 }
 
 .our-advantages-widget .advantage-type5:hover {
-  background: #dd8a4c url(../i/advantege5.png) 125% 122% no-repeat;
+  background: #0F91B1 url(../i/advantege5.png) 125% 122% no-repeat;
 }
 
 .our-advantages-widget .advantage-type5 .advantage-text {
@@ -13662,7 +13662,7 @@ table tbody tr th {
   left: 0;
   z-index: -1;
   margin-bottom: -2px;
-  background: linear-gradient(to right,#0F91B1,#33ccc0,#46eeaa);
+  background: linear-gradient(to right,#0F91B1,#33ccc0,#0F91B1);
 }
 
 .models-slider-widget .models-slider .slide .model-content .model-details .technical-details-list {
@@ -14414,7 +14414,7 @@ table tbody tr th {
   left: 0;
   z-index: -1;
   margin-bottom: -2px;
-  background: linear-gradient(to right,#0F91B1,#33ccc0,#46eeaa);
+  background: linear-gradient(to right,#0F91B1,#33ccc0,#0F91B1);
 }
 
 .model-features-widget .model-features-wrapper .model-features-top .model-features-top-right .model-details .technical-details-box .technical-details-list {
@@ -15068,7 +15068,7 @@ table tbody tr th {
 
 .model-builder-widget .builder-bottom .wheels-list li.active .selection-bullet {
   border: none;
-  background: #46eeaa;
+  background: #0F91B1;
 }
 
 .model-builder-widget .builder-bottom .wheels-list li:hover {
@@ -15091,7 +15091,7 @@ table tbody tr th {
   width: 21px;
   height: 21px;
   border-radius: 99px;
-  border: 1px solid #46eeaa;
+  border: 1px solid #0F91B1;
   margin-left: calc(-50% - 11px);
   margin-top: 10px;
   margin-bottom: 15px;
@@ -15279,7 +15279,7 @@ table tbody tr th {
 
 .model-builder-widget .builder-bottom .engines-list>li.active .selection-bullet {
   border: none;
-  background: #46eeaa;
+  background: #0F91B1;
 }
 
 .model-builder-widget .builder-bottom .engines-list>li:hover {
@@ -15308,7 +15308,7 @@ table tbody tr th {
   width: 21px;
   height: 21px;
   border-radius: 99px;
-  border: 1px solid #46eeaa;
+  border: 1px solid #0F91B1;
   margin-top: 10px;
   margin-bottom: 15px;
   pointer-events: none;
@@ -15840,21 +15840,21 @@ table tbody tr th {
 }
 
 .testimonials-widget .testimonials-box .testimonial-item .add-new-testimonial-btn.green--color {
-  background: #46eeaa;
+  background: #0F91B1;
   box-shadow: 0 0 12px 0 rgba(70,238,170,.7);
 }
 
 .testimonials-widget .testimonials-box .testimonial-item .add-new-testimonial-btn.green--color:hover {
-  box-shadow: 0 0 15px 0 #46eeaa;
+  box-shadow: 0 0 15px 0 #0F91B1;
 }
 
 .testimonials-widget .testimonials-box .testimonial-item .add-new-testimonial-btn.orange--color {
-  background: #dd8a4c;
+  background: #0F91B1;
   box-shadow: 0 0 12px 0 rgba(221,138,76,.7);
 }
 
 .testimonials-widget .testimonials-box .testimonial-item .add-new-testimonial-btn.orange--color:hover {
-  box-shadow: 0 0 15px 0 #dd8a4c;
+  box-shadow: 0 0 15px 0 #0F91B1;
 }
 
 .testimonials-widget .testimonials-box .owl-nav {
@@ -16016,14 +16016,14 @@ table tbody tr th {
 }
 
 .testdirve-widget .cart-features-text.green--gradient span:after {
-  background-image: linear-gradient(90deg,#0F91B1 0,#46eeaa);
+  background-image: linear-gradient(90deg,#0F91B1 0,#0F91B1);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FF0F91B1", endColorstr="#FF46EEAA", GradientType=1);
   background-repeat: repeat-x;
 }
 
 .testdirve-widget .cart-features-text.orange--gradient span:after {
-  background-image: linear-gradient(90deg,#df8f4e 0,#f6ce5e);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#df8f4e", endColorstr="#f6ce5e", GradientType=1);
+  background-image: linear-gradient(90deg,#0F91B1 0,#0F91B1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0F91B1", endColorstr="#0F91B1", GradientType=1);
   background-repeat: repeat-x;
 }
 
@@ -16478,31 +16478,31 @@ table tbody tr th {
 }
 
 .car-preview-widget .car-overview .car-feature--wrapper .model-tip.green--color .tip-bullet {
-  background: #46eeaa;
+  background: #0F91B1;
   box-shadow: 0 0 12px 0 rgba(70,238,170,.7);
 }
 
 .car-preview-widget .car-overview .car-feature--wrapper .model-tip.green--color .tip-bullet:hover {
-  box-shadow: 0 0 15px 0 #46eeaa;
+  box-shadow: 0 0 15px 0 #0F91B1;
 }
 
 .car-preview-widget .car-overview .car-feature--wrapper .model-tip.orange--color .tip-bullet {
-  background: #dd8a4c;
+  background: #0F91B1;
   box-shadow: 0 0 12px 0 rgba(221,138,76,.7);
 }
 
 .car-preview-widget .car-overview .car-feature--wrapper .model-tip.orange--color .tip-bullet:hover {
-  box-shadow: 0 0 15px 0 #dd8a4c;
+  box-shadow: 0 0 15px 0 #0F91B1;
 }
 
 .car-preview-widget .car-overview .car-feature--wrapper .model-tip.green--gradient .tip-text:after {
-  background-image: linear-gradient(to right,#0F91B1 0,#46eeaa 100%);
+  background-image: linear-gradient(to right,#0F91B1 0,#0F91B1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0F91B1', endColorstr='#FF46EEAA', GradientType=1);
   background-repeat: repeat-x;
 }
 
 .car-preview-widget .car-overview .car-feature--wrapper .model-tip.orange--gradient .tip-text:after {
-  background-image: linear-gradient(to right,#df8f4e 0,#f6ce5e 100%);
+  background-image: linear-gradient(to right,#0F91B1 0,#0F91B1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFDF8F4E', endColorstr='#FFF6CE5E', GradientType=1);
   background-repeat: repeat-x;
 }
@@ -17995,7 +17995,7 @@ table tbody tr th {
   right: 0;
   opacity: 0;
   margin-left: -7px;
-  background-image: linear-gradient(to right,#0F91B1 0,#46eeaa 100%);
+  background-image: linear-gradient(to right,#0F91B1 0,#0F91B1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0F91B1', endColorstr='#FF46EEAA', GradientType=1);
   background-repeat: repeat-x;
 }
