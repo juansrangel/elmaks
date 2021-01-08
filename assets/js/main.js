@@ -20568,3 +20568,79 @@ $(document).ready(function () {
         containerToContainerFluid('#contact-map-wrap');
     };
 });
+// google map
+function init_google_map(){		
+		
+	if($("#google-map-listing").length){
+		var latitude     = $("#google-map-listing").data('latitude');
+		var longitude    = $("#google-map-listing").data('longitude');
+		var zoom         = $("#google-map-listing").data('zoom');
+		var scroll_wheel = $("#google-map-listing").data('scroll');
+		var style        = $("#google-map-listing").data('style');
+		var parallax     = $("#google-map-listing").data('parallax');
+		
+		if(latitude && longitude){				
+			var myLatlng = new google.maps.LatLng(latitude, longitude);
+			var myOptions = {
+				zoom: zoom,
+				center: myLatlng,
+				popup: true,
+				mapTypeId: google.maps.MapTypeId.ROADMAP
+			}
+
+			if(parallax != false && typeof parallax == "undefined"){
+				myOptions.scroll = {
+					x:$(window).scrollLeft(),
+					y:$(window).scrollTop()
+				}
+			}
+			
+			if(scroll_wheel == false && typeof scroll_wheel != "undefined"){
+				myOptions.scrollwheel = false;
+			}
+			
+			if(typeof style != "undefined"){
+				myOptions.styles = style;
+			}				
+			
+			var map = new google.maps.Map(document.getElementById("google-map-listing"), myOptions);
+			
+			var marker = new google.maps.Marker({
+				position: myLatlng, 
+				map: map,
+				title: "Our Location"
+			});
+
+			if(parallax != false && typeof parallax == "undefined"){
+				var offset = $("#google-map-listing").offset();
+				map.panBy(((myOptions.scroll.x-offset.left)/3),((myOptions.scroll.y-offset.top)/3));
+				  
+				google.maps.event.addDomListener(window, 'scroll', function(){
+					var scrollY = $(window).scrollTop(),
+						scrollX = $(window).scrollLeft(),
+						scroll  = map.get('scroll');
+					
+					if(scroll){
+						map.panBy(-((scroll.x-scrollX)/3),-((scroll.y-scrollY)/3));
+					}
+
+					map.set('scroll',{
+						x:scrollX,
+						y:scrollY
+					});
+				});
+			}
+
+			google.maps.event.addListener(marker, 'click', function() {
+				map.setZoom(zoom);
+			});
+		}
+	}
+}
+
+init_google_map();
+});
+
+function rev_iframe(){
+jQuery('.tp-banner').revolution().revnext();
+}

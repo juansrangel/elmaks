@@ -8830,9 +8830,22 @@ a::selection,blockquote::selection,div::selection,h1::selection,h2::selection,h3
   position: relative;
 }
 
+header .navbar-brand img {
+	height: auto;
+	width: 9%;
+  margin-top: -0px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #FFFFFF;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
 .main-header .main-header--top .logo-2 {
-  width: 152px;
-  height: 135px;
+  width: auto;
+  height:135px ;
   position: absolute;
   left: 0;
   top: 0;
@@ -8840,12 +8853,7 @@ a::selection,blockquote::selection,div::selection,h1::selection,h2::selection,h3
   z-index: 1;
   display: flex;
   justify-content: center;
-  align-items: center;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 2rem;
-  line-height: 2rem;
-  font-weight: 700;
+  align-items: center; 
 }
 
 .main-header .main-header--top .main-header-top-wrapper {
@@ -8951,7 +8959,7 @@ a::selection,blockquote::selection,div::selection,h1::selection,h2::selection,h3
 }
 
 .main-header .main-header--top .main-header-top-wrapper .main-header-test-btn:hover {
-  background: #1a1a1a;
+  background: #1E283F;
 }
 
 .main-header .main-header--top .main-header--social {
@@ -8992,7 +9000,7 @@ a::selection,blockquote::selection,div::selection,h1::selection,h2::selection,h3
 }
 
 .main-header .main-header--top .main-header--social li a:hover {
-  background: #1a1a1a;
+  background: #1E283F;
 }
 
 .main-header .main-header--top .main-header--social li a i {
@@ -9167,7 +9175,7 @@ a::selection,blockquote::selection,div::selection,h1::selection,h2::selection,h3
 
 @media all and (max-width:1774px) {
   #footer .footer-top {
-    background: #1a1a1a;
+    background: #1E283F;
   }
 }
 
@@ -9229,7 +9237,7 @@ a::selection,blockquote::selection,div::selection,h1::selection,h2::selection,h3
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: #1a1a1a;
+    background: #1E283F;
     padding: 0 0 0 103px;
     max-width: 1775px;
     width: 100%;
@@ -9548,7 +9556,7 @@ a::selection,blockquote::selection,div::selection,h1::selection,h2::selection,h3
   width: 100%;
   font-size: 1.125rem;
   line-height: 1.75rem;
-  color: #1a1a1a;
+  color: #1E283F;
 }
 
 @media all and (max-width:575px) {
@@ -9656,7 +9664,7 @@ a::selection,blockquote::selection,div::selection,h1::selection,h2::selection,h3
 }
 
 #footer .footer-bottom .footer-social-profiles-wrap .footer-social-profiles-list li a {
-  color: #1a1a1a;
+  color: #1E283F;
   transition: all .4s ease-in-out;
 }
 
@@ -9709,7 +9717,7 @@ a::selection,blockquote::selection,div::selection,h1::selection,h2::selection,h3
 #footer .footer-bottom .footer-list ul li a {
   font-size: 1rem;
   line-height: 1.75rem;
-  color: #1a1a1a;
+  color: #1E283F;
   text-transform: uppercase;
   transition: all .4s ease-in-out;
 }
@@ -9785,22 +9793,22 @@ a::selection,blockquote::selection,div::selection,h1::selection,h2::selection,h3
 }
 
 .right-sidebar .search-form-widget .sidebar-search-form input[type=text] ::-webkit-input-placeholder {
-  color: #1a1a1a;
+  color: #1E283F;
   font-weight: 400;
 }
 
 .right-sidebar .search-form-widget .sidebar-search-form input[type=text] :-moz-placeholder {
-  color: #1a1a1a;
+  color: #1E283F;
   font-weight: 400;
 }
 
 .right-sidebar .search-form-widget .sidebar-search-form input[type=text] ::-moz-placeholder {
-  color: #1a1a1a;
+  color: #1E283F;
   font-weight: 400;
 }
 
 .right-sidebar .search-form-widget .sidebar-search-form input[type=text] :-ms-input-placeholder {
-  color: #1a1a1a;
+  color: #1E283F;
   font-weight: 400;
 }
 
@@ -9999,22 +10007,22 @@ a::selection,blockquote::selection,div::selection,h1::selection,h2::selection,h3
 }
 
 .left-sidebar .search-form-widget .sidebar-search-form input[type=text] ::-webkit-input-placeholder {
-  color: #1a1a1a;
+  color: #1E283F;
   font-weight: 400;
 }
 
 .left-sidebar .search-form-widget .sidebar-search-form input[type=text] :-moz-placeholder {
-  color: #1a1a1a;
+  color: #1E283F;
   font-weight: 400;
 }
 
 .left-sidebar .search-form-widget .sidebar-search-form input[type=text] ::-moz-placeholder {
-  color: #1a1a1a;
+  color: #1E283F;
   font-weight: 400;
 }
 
 .left-sidebar .search-form-widget .sidebar-search-form input[type=text] :-ms-input-placeholder {
-  color: #1a1a1a;
+  color: #1E283F;
   font-weight: 400;
 }
 
@@ -10471,7 +10479,7 @@ a::selection,blockquote::selection,div::selection,h1::selection,h2::selection,h3
 }
 
 .default-popup .popup-heading {
-  color: #1a1a1a;
+  color: #1E283F;
   margin-bottom: 40px;
 }
 
@@ -10593,7 +10601,7 @@ a::selection,blockquote::selection,div::selection,h1::selection,h2::selection,h3
 label {
   display: block;
   font-weight: 500;
-  color: #1a1a1a;
+  color: #1E283F;
   margin-bottom: 3px;
   margin-left: 2px;
   font-size: 14px;
@@ -10606,7 +10614,7 @@ input[type=email],input[type=text] {
   background: #fff;
   border: 1px solid #eaebeb;
   font-weight: 300;
-  color: #1a1a1a;
+  color: #1E283F;
 }
 
 textarea {
@@ -10614,7 +10622,7 @@ textarea {
   background: #fff;
   border: 1px solid #eaebeb;
   font-weight: 300;
-  color: #1a1a1a;
+  color: #1E283F;
 }
 
 .styled-checkbox {
@@ -10628,7 +10636,7 @@ textarea {
   padding: 0;
   font-size: 18px;
   line-height: 22px;
-  color: #1a1a1a;
+  color: #1E283F;
   font-weight: 400;
 }
 
@@ -10685,7 +10693,7 @@ textarea {
   font-size: 18px;
   line-height: 20px;
   font-weight: 400;
-  color: #1a1a1a;
+  color: #1E283F;
 }
 
 [type=radio]:checked+label:before,[type=radio]:not(:checked)+label:before {
@@ -10843,7 +10851,7 @@ table thead tr th {
   border: 1px solid #eaebeb;
   font-family: Poppins,sans-serif;
   padding: 12px 15px 10px 15px;
-  color: #1a1a1a;
+  color: #1E283F;
   font-weight: 600;
   font-size: 16px;
   line-height: 28px;
@@ -10861,7 +10869,7 @@ table tbody tr th {
   border: 1px solid #eaebeb;
   font-family: Poppins,sans-serif;
   padding: 12px 15px 10px 15px;
-  color: #1a1a1a;
+  color: #1E283F;
   font-weight: 700;
   font-size: 14px;
   line-height: 28px;
@@ -10869,7 +10877,7 @@ table tbody tr th {
 
 .table-grey {
   background: #f8f8f8;
-  color: #1a1a1a;
+  color: #1E283F;
 }
 
 .table-mint {
@@ -11035,7 +11043,7 @@ table tbody tr th {
   border-top: none;
   white-space: nowrap;
   display: block;
-  color: #1a1a1a;
+  color: #1E283F;
 }
 
 @media all and (max-width:849px) {
@@ -11093,7 +11101,7 @@ table tbody tr th {
 }
 
 .social-profiles-list li a {
-  color: #1a1a1a;
+  color: #1E283F;
   transition: all .4s ease-in-out;
 }
 
@@ -11121,7 +11129,7 @@ table tbody tr th {
   border-radius: 1px;
   height: 5px;
   width: 35px;
-  background: #1a1a1a;
+  background: #1E283F;
   position: absolute;
   display: inline-block;
   content: '';
@@ -11165,7 +11173,7 @@ table tbody tr th {
   font-family: Poppins,sans-serif;
   font-size: 16px;
   line-height: 1.2;
-  color: #1a1a1a;
+  color: #1E283F;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -11228,7 +11236,7 @@ table tbody tr th {
   line-height: 1.75rem;
   width: 100%;
   display: block;
-  color: #1a1a1a;
+  color: #1E283F;
   transition: background .3s ease;
   position: relative;
 }
@@ -11597,7 +11605,7 @@ table tbody tr th {
 }
 
 .after-post-content-panel .post-tags-list li a:hover {
-  color: #1a1a1a;
+  color: #1E283F;
 }
 
 .after-post-content-panel .post-author-sign {
@@ -11806,7 +11814,7 @@ table tbody tr th {
 .about-us-widget .about-left-side {
   max-width: 43%;
   width: 100%;
-  background: #1a1a1a;
+  background: #1E283F;
   display: flex;
   align-items: center;
   padding-right: 3.4%;
@@ -12013,7 +12021,7 @@ table tbody tr th {
 }
 
 .about-us-widget .about-right-side .about-right-side-top {
-  color: #1a1a1a;
+  color: #1E283F;
 }
 
 .about-us-widget .about-right-side .about-right-side-top .about-widget-title {
@@ -12037,7 +12045,7 @@ table tbody tr th {
 }
 
 .about-us-widget .about-right-side .about-right-side-bottom {
-  color: #1a1a1a;
+  color: #1E283F;
   display: flex;
   align-items: center;
 }
@@ -13315,7 +13323,7 @@ table tbody tr th {
   max-width: 34%;
   width: 100%;
   height: 112%;
-  background: #1a1a1a url(../i/members-slider-control_bg.png) left bottom no-repeat;
+  background: #1E283F url(../i/members-slider-control_bg.png) left bottom no-repeat;
   background-size: cover;
   position: absolute;
   right: 0;
@@ -13680,7 +13688,7 @@ table tbody tr th {
 
 .models-slider-widget .models-slider .slide .model-content .model-details .technical-details-list li small,.models-slider-widget .models-slider .slide .model-content .model-details .technical-details-list li span {
   display: block;
-  color: #1a1a1a;
+  color: #1E283F;
   word-break: break-word;
 }
 
@@ -13734,7 +13742,7 @@ table tbody tr th {
   display: block;
   font-size: 1rem;
   line-height: 1.125rem;
-  color: #1a1a1a;
+  color: #1E283F;
   margin-left: 15px;
 }
 
@@ -13997,7 +14005,7 @@ table tbody tr th {
   font-size: 1.25rem;
   line-height: 1.625rem;
   font-weight: 700;
-  color: #1a1a1a;
+  color: #1E283F;
 }
 
 .new-models-widget .new-models-gallery #new-model-vertical-list li a .model-data .model-price {
@@ -14012,7 +14020,7 @@ table tbody tr th {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #1a1a1a;
+  background: #1E283F;
   padding: 2.5%;
   margin-left: 0!important;
 }
@@ -14332,7 +14340,7 @@ table tbody tr th {
 }
 
 .model-features-widget .model-features-wrapper .model-features-top .model-features-top-left .color-filter .owl-nav button svg {
-  fill: #1a1a1a;
+  fill: #1E283F;
   opacity: 1;
   transition: opacity .3s ease-in-out;
 }
@@ -14468,7 +14476,7 @@ table tbody tr th {
   display: block;
   font-size: 1rem;
   line-height: 1.125rem;
-  color: #1a1a1a;
+  color: #1E283F;
   margin-left: 15px;
 }
 
@@ -14702,7 +14710,7 @@ table tbody tr th {
   font-size: 1.875rem;
   line-height: 2.5rem;
   font-weight: 700;
-  color: #1a1a1a;
+  color: #1E283F;
 }
 
 @media all and (min-width:575px) and (max-width:991px) {
@@ -14745,7 +14753,7 @@ table tbody tr th {
 }
 
 .performans-widget .performans-content .performans-tabs-box .tabs li a {
-  color: #1a1a1a;
+  color: #1E283F;
 }
 
 .performans-widget .performans-content .performans-tabs-box .tabs-content {
@@ -14787,7 +14795,7 @@ table tbody tr th {
   line-height: 1.875rem;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #1a1a1a;
+  color: #1E283F;
 }
 
 @media all and (min-width:575px) and (max-width:991px) {
@@ -15240,7 +15248,7 @@ table tbody tr th {
 }
 
 .model-builder-widget .builder-bottom .color-filter .owl-nav button svg {
-  fill: #1a1a1a;
+  fill: #1E283F;
   opacity: 1;
   transition: opacity .3s ease-in-out;
 }
@@ -15337,7 +15345,7 @@ table tbody tr th {
 }
 
 .models-viewver-widget {
-  background: #4a4f55;
+  background: #1E283F;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 115px;
@@ -15433,7 +15441,7 @@ table tbody tr th {
   line-height: 1.75rem;
   font-weight: 600;
   text-transform: uppercase;
-  background: #1a1a1a;
+  background: #0F91B1;
   color: #fff;
   padding: 10px 50px;
   text-decoration: none;
@@ -15447,7 +15455,7 @@ table tbody tr th {
 
 .models-viewver-widget .models-viewver-content .model-viever-tabs-wrapper .model-viever-tabs-list li.active .model-viever--tab {
   background: #fff;
-  color: #1a1a1a;
+  color: #1E283F;
 }
 
 .models-viewver-widget .models-viewver-content .model-viewver-tabs-content {
@@ -15874,7 +15882,7 @@ table tbody tr th {
 }
 
 .testimonials-widget .testimonials-box .owl-nav button svg {
-  fill: #1a1a1a;
+  fill: #1E283F;
   opacity: 1;
   transition: opacity .3s ease-in-out;
 }
@@ -15888,7 +15896,7 @@ table tbody tr th {
 }
 
 .testimonials-widget .testimonials-box .owl-dots .owl-dot.active span {
-  background: #1a1a1a;
+  background: #1E283F;
 }
 
 .testimonials-widget #new-testimonial-box {
@@ -16585,7 +16593,7 @@ table tbody tr th {
 @media all and (min-width:992px) {
   .car-preview-widget .car-overview .car-feature--wrapper .model-tip .model-tip-inner .tip-text {
     font-size: 22px;
-    line-height: 26px;
+    line-height: 40px;
   }
 }
 
@@ -16624,7 +16632,7 @@ table tbody tr th {
   clear: both;
   border-bottom: 1px solid #fff;
   border-right: 1px solid #fff;
-  padding-left: 7px;
+  padding-left: 151px;
 }
 
 @media all and (max-width:767px) {
@@ -16645,7 +16653,7 @@ table tbody tr th {
 
 @media all and (min-width:992px) {
   .car-preview-widget .car-overview .car-feature--wrapper .model-tip.left-bottom-text .tip-text {
-    padding-top: 25px;
+    padding-top: 0px;
     padding-right: 34px;
     margin-right: 27px;
   }
@@ -17148,7 +17156,7 @@ table tbody tr th {
 }
 
 .simple-page-heading {
-  color: #1a1a1a;
+  color: #1E283F;
   margin-bottom: 50px;
 }
 
@@ -17607,7 +17615,7 @@ table tbody tr th {
 }
 
 .post-content .unordered-list li {
-  color: #1a1a1a;
+  color: #1E283F;
 }
 
 .post-content .unordered-list li::before {
@@ -17654,7 +17662,7 @@ table tbody tr th {
 }
 
 .post-content .ordered-list li {
-  color: #1a1a1a;
+  color: #1E283F;
 }
 
 .post-content .ordered-list li .list-number {
@@ -17718,7 +17726,7 @@ table tbody tr th {
 }
 
 .contact-section .contact-title-box h3 {
-  color: #1a1a1a;
+  color: #1E283F;
   line-height: 1.2;
   text-transform: uppercase;
   font-size: 50px;
@@ -17729,7 +17737,7 @@ table tbody tr th {
 .contact-section .contact-title-box span {
   font-size: 20px;
   line-height: 1.2;
-  color: #1a1a1a;
+  color: #1E283F;
   margin-left: 3px;
   display: block;
 }
@@ -17805,7 +17813,7 @@ table tbody tr th {
   padding: 0;
   text-align: left;
   text-transform: uppercase;
-  color: #1a1a1a;
+  color: #1E283F;
   font-weight: 700;
   font-size: 1.125rem;
   line-height: 1.875rem;
@@ -17846,7 +17854,7 @@ table tbody tr th {
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.875rem;
-  color: #1a1a1a;
+  color: #1E283F;
   max-width: 27%;
   width: 100%;
   display: inline-block;
@@ -17884,7 +17892,7 @@ table tbody tr th {
   font-size: 1.25rem;
   line-height: 1.875rem;
   font-weight: 700;
-  color: #1a1a1a;
+  color: #1E283F;
   text-transform: uppercase;
   margin-bottom: 35px;
 }
@@ -17969,7 +17977,7 @@ table tbody tr th {
 }
 
 #blog-page .posts .posts-categories .posts-categories-list li a {
-  color: #1a1a1a;
+  color: #1E283F;
   font-size: 1rem;
   line-height: 1.875rem;
   font-weight: 700;
@@ -18144,7 +18152,7 @@ table tbody tr th {
   max-width: 49%;
   width: 100%;
   color: #fff;
-  background: #1a1a1a;
+  background: #1E283F;
   padding: 45px 40px;
   margin-top: -20%;
   position: relative;
@@ -18158,7 +18166,7 @@ table tbody tr th {
     max-width: 100%;
     padding: 0;
     background: 0 0;
-    color: #1a1a1a;
+    color: #1E283F;
   }
 }
 
@@ -18227,7 +18235,7 @@ table tbody tr th {
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-  color: #1a1a1a;
+  color: #1E283F;
   margin-right: 20%;
   margin-top: 10px;
 }
@@ -18270,7 +18278,7 @@ table tbody tr th {
   width: 1px;
   height: 355px;
   display: inline-block;
-  background: #1a1a1a;
+  background: #1E283F;
   margin-left: 50%;
   z-index: 1;
 }
@@ -18450,5 +18458,75 @@ table tbody tr th {
 @media all and (min-width:992px) {
   #elememts-page .blog-post-wrapper .post .post-title {
     padding-right: 40px;
+  }
+
+  #google-map-listing img {
+    max-width: inherit;
+  }
+  .fullwidth_element {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+  .car-block {
+    display: block;
+    position: relative;
+    background-color: transparent;
+  }
+  .car-block .img-flex {
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 555;
+    transition-duration: .3s;
+  }
+  
+  .car-block .img-flex .align-center {
+    display: none;
+  }
+  
+  .car-block:hover .img-flex {
+    display: block;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .car-block:hover .img-flex .align-center {
+    display: block;
+    background-color: #000;
+    opacity: 0.6;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .car-block:hover .img-flex i {
+    color: #fff;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    margin-top: -16.5px;
+    left: 50%;
+    margin-left: -16.5px;
+  }
+  .recent-vehicles .car-block:hover .img-flex i {
+  }
+  .recent_car.car-block:hover .img-flex i {
+    color: #FFF;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    margin-top: -12.5px;
+    left: 50%;
+    margin-left: -10.5px;
+  }
+  .recent_car.car-block .img-flex {
+    display: inline-block;
+    width: 75px;
+    float: left;
+  }
+  .locationmar {
+    position: static;
   }
 }
