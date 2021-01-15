@@ -8707,7 +8707,7 @@ table {
 }
 
 button,html,input,select,textarea {
-  color: #222;
+  color: #1E283F;
 }
 
 ::selection {
@@ -9144,7 +9144,7 @@ header .navbar-brand img {
   height: 577px;
   max-width: 380px;
   width: 100%;
-  background: #4b4f54;
+  background: #0F91B1;
   z-index: 10;
 }
 
@@ -9277,7 +9277,7 @@ header .navbar-brand img {
 #footer .footer-top .footer-top-wrap .subscribe-box .title-box .subscribe-description {
   font-size: 1.125rem;
   line-height: 1.75rem;
-  color: #979797;
+  color: #FFF;
 }
 
 #footer .footer-top .footer-top-wrap .subscribe-box .footer-subscribe-form {
@@ -9287,7 +9287,7 @@ header .navbar-brand img {
   display: flex;
   flex-direction: row;
   padding: 8px 0;
-  background: #4b4f54;
+  background: #FFFFFF;
 }
 
 @media all and (max-width:767px) {
@@ -9297,19 +9297,19 @@ header .navbar-brand img {
 }
 
 #footer .footer-top .footer-top-wrap .subscribe-box .footer-subscribe-form ::-webkit-input-placeholder {
-  color: #979797;
+  color: #1E283F;
 }
 
 #footer .footer-top .footer-top-wrap .subscribe-box .footer-subscribe-form :-moz-placeholder {
-  color: #979797;
+  color: #1E283F;
 }
 
 #footer .footer-top .footer-top-wrap .subscribe-box .footer-subscribe-form ::-moz-placeholder {
-  color: #979797;
+  color: #1E283F;
 }
 
 #footer .footer-top .footer-top-wrap .subscribe-box .footer-subscribe-form :-ms-input-placeholder {
-  color: #979797;
+  color: #1E283F;
 }
 
 @media all and (max-width:767px) {
@@ -9324,7 +9324,7 @@ header .navbar-brand img {
   border: none;
   padding-left: 21px;
   padding-right: 21px;
-  color: #979797;
+  color: #1E283F;
   font-size: 1rem;
   line-height: 1.75rem;
   font-weight: 400;
@@ -9344,7 +9344,7 @@ header .navbar-brand img {
   padding: 2px 30px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #979797;
+  color: #1E283F;
   border: none;
   border-left: 1px solid #5a5e62;
   transition: all .4s ease-in-out;
@@ -9446,7 +9446,7 @@ header .navbar-brand img {
 }
 
 #footer .footer-top .footer-top-wrap .useful-sections .useful-box .info-list li {
-  color: #979797;
+  color: #FFFFFF;
   margin-bottom: 13px;
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -11107,7 +11107,7 @@ table tbody tr th {
 
 .social-profiles-list li a:hover {
   opacity: .7;
-  color: #979797;
+  color: #1E283F;
   transition: all .4s ease-in-out;
 }
 
