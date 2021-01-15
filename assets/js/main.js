@@ -19585,7 +19585,7 @@ $(document).ready(function () {
 
 
     //init toggleDisableFormButton
-    toggleDisableFormButton(['#test-drive-inner .test-drive-form', '#call-now-inner .call-now-form']);
+    toggleDisableFormButton(['#test-drive-inner .test-drive-form', '#call-now-inner .call-now-form','#concentimiento-inner .concentimiento-form']);
     
         
             
