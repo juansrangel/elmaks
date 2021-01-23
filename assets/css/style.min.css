@@ -8078,6 +8078,7 @@ body.lb-disable-scrolling {
   box-sizing: content-box;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
+  height: 500px;
 }
 
 #cboxOverlay {
@@ -10461,7 +10462,7 @@ header .navbar-brand img {
 
 .default-popup {
   padding: 8% 5% 5% 5%;
-  position: relative;
+  position: relative  ;
 }
 
 .default-popup .close-btn-popup {
@@ -13634,6 +13635,7 @@ table tbody tr th {
   position: relative;
   z-index: 3;
   margin: 0 auto;
+  overflow-x:scroll ;
 }
 
 @media all and (min-width:320px) and (max-width:574px) {
